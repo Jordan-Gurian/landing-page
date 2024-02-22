@@ -18,12 +18,15 @@ body {
     color: #F9FAF8
 }
 
+.blue-border {
+    border: solid 4px #3882F6;
+    border-radius: 8px ;
+}
+
 .quad-one, 
 .quad-two,
-.quad-three,
-.quad-four {
-    padding-left: 96px;
-    padding-right: 96px;
+.quad-three {
+    padding: 24px 96px 48px 96px;
 }
 
 .quad-one {
@@ -31,13 +34,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 12px;
-    padding-bottom: 48px;
 }
 
 .header,
 .awesome {    
-    margin: 24px;
+    margin-bottom: 48px;
 
 }
 
@@ -92,8 +93,6 @@ a {
     margin-top: 8px;
     background-color: #3882F6;
     color: white;
-    border: solid 4px #3882F6;
-    border-radius: 8px ;
     font-weight: bold;
 }
 
@@ -101,8 +100,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 48px;
 }
 
 .quad-two-upper {
@@ -121,8 +118,6 @@ a {
 .quad-two-image {
     width: 150px;
     height: 150px;
-    border: solid 4px #3882F6;
-    border-radius: 8px ;
     margin-bottom: 8px;
 }
 
@@ -143,7 +138,6 @@ a {
 .quad-three {
     background-color: #E5E7EB;
     padding-top: 48px;
-    padding-bottom: 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,17 +148,19 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    margin-left:128px;
+    margin-right:128px;
 }
 
 .speaker {
     font-weight: bold;
     font-size: 24px;
+    margin-left:128px;
+    margin-right:128px;
 }
 
 .quad-four {
     background-color: #3882F6;
-    border: solid 4px #3882F6;
-    border-radius: 8px ;
     margin: 48px 96px;
     padding: 24px 48px;
     display: flex;
