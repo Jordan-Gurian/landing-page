@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.quad-one, 
+.quad-two,
+.quad-three,
+.quad-four {
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.quad-one {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 48px;
+}
+
+.header,
+.awesome {    
+    margin: 24px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-12px;
+}
+
+.logo, 
+.quad-four-upper {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.awesome {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.awesome-left {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 50%;
+}
+
+#top-image {
+    text-align: center;
+    background-color: gray;
+    flex-grow:1;
+    height: 200px;
+    line-height: 200px;
+
+}
+
+.sign-up-button {
+    width: 100px;
+    padding: px 8px;
+    margin-top: 8px;
+    background-color: #3882F6;
+    color: white;
+    border: solid 4px #3882F6;
+    border-radius: 8px ;
+    font-weight: bold;
+}
+
+.quad-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.quad-two-upper {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 24px;
+}
+
+.quad-two-lower {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.quad-two-image {
+    width: 150px;
+    height: 150px;
+    border: solid 4px #3882F6;
+    border-radius: 8px ;
+    margin-bottom: 8px;
+}
+
+.first-image,
+.second-image,
+.third-image,
+.fourth-image {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.quad-two-text {
+    font-size: 18px;
+    color: black;
+}
+
+.quad-three {
+    background-color: #E5E7EB;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.speaker {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.quad-four {
+    background-color: #3882F6;
+    border: solid 4px #3882F6;
+    border-radius: 8px ;
+    margin: 48px 96px;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.quad-four-right .sign-up-button {
+    border: solid 2px white;
+    border-radius: 4px ;
+}
